@@ -21,6 +21,11 @@ public class testcalcolatrice {
         assertTrue(calc.sub(2,1)==1,"sottrazione corretta");
     }
 
+    public void testamul(){
+        assertTrue(calc.multiply(2,1)==2,"sottrazione corretta");
+    }
 
-
+    public void testadiv(){
+        assertTrue(calc.divide(10,2)==5,"sottrazione corretta");
+    }
 }
