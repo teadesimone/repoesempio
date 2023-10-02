@@ -10,6 +10,10 @@ public class calcolatrice {
         this.a =0;
         this.b =0;
     }
+    public void setOperands(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
     public int add (int a, int b){
 
         return a+b;
@@ -26,7 +30,4 @@ public class calcolatrice {
 
         return a/b;
     }
-
-
-
 }
